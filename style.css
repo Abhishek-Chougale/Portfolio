@@ -363,6 +363,10 @@ nav .fa-solid{
     padding: 30px 0 ;
     margin-top: -80px;
   }
+  .logo{
+    margin-top:35px;
+    margin-left:-15px;
+  }
 }
 #msg{
   color: #61b752;
