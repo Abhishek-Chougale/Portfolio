@@ -351,7 +351,8 @@ nav .fa-solid{
   }
   .tab-contents li{
     list-style-type: none;
-    font-family: 'Ysabeau', sans-serif;   
+    font-family: 'Ysabeau', sans-serif;  
+    font-weight: bold;
     font-size: 15px;
   }   
   .tab-contents ul li span{
