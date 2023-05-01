@@ -283,6 +283,7 @@ nav .fa-solid{
     font-size: 25px;
   }
   nav .fa-solid.threebar{
+    margin-top: -45px;
     display: block;
     font-size: 25px;
     margin-left: 300px;
@@ -366,6 +367,16 @@ nav .fa-solid{
   .logo{
     margin-top:35px;
     margin-left:-15px;
+  }
+  nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
   }
 }
 #msg{
